@@ -1,0 +1,2 @@
+document.querySelector("#keys-start"),document.querySelector("#keys-reset");const e=document.querySelector("#keys-output"),t=[{name:"KeyA",letter:"a"},{name:"KeyR",letter:"r"},{name:"KeyF",letter:"f"},{name:"KeyC",letter:"c"},{name:"KeyL",letter:"l"},{name:"KeyS",letter:"s"},{name:"KeyM",letter:"m"},{name:"KeyP",letter:"p"},{name:"KeyX",letter:"x"},{name:"KeyH",letter:"h"}];window.addEventListener("keydown",r=>{e.textContent=t[0].letter});
+//# sourceMappingURL=index.99a5d5ba.js.map

@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 26</title>
-</head>
-<body>
-    <h1>Hello, world</h1>
-</body>
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="../node_modules/@pnotify/core/dist/PNotify.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="../node_modules/@pnotify/mobile/dist/PNotifyMobile.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="keys">
+      <button id="keys-start">Start game</button>
+      <button id="keys-reset">Reset game</button>
+      <p>Score: <span id="score-output">0</span></p>
+      <p>Current key: <span id="keys-output"></span></p>
+    </div>
+    <div style="width: 600px;">
+      <canvas id="sales-chart"></canvas>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
 </html>

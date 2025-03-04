@@ -2,7 +2,6 @@
   "name": "js-task-26",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx parcel src/index.html",
@@ -15,6 +14,11 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^6.3.0",
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "pnotify": "^5.2.0"
+  },
+  "dependencies": {
+    "@cubejs-client/core": "^0.31.0",
+    "chart.js": "^4.0.0"
   }
 }
